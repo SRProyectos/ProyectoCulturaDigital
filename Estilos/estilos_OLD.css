@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #1b1726;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+}
+  
+.header {
+    background-image: url(../imagenes/Background3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 20px;
+  }
+
+  .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .logo{
+    color: #ff5a2c;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 8%
+  }
+
+  .menu .navbar ul li{
+    position: relative;
+    float: left;
+  }
+
+  .menu .navbar ul li a{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+    border-radius: 25px;
+  }
+
+  .menu .navbar ul li a:hover{
+    background-color: #ff5a2c;
+    transition: 0.3s ease;
+  }
+
+  #menu{
+    display: none;
+  }
+
+  .menu-icono{
+    width: 25px;
+  }
+
+  .menu label{
+    cursor: pointer;
+    display: none;
+  }
+
+  .header-content{
+    display: flex;
+  }
+
+  .header-txt{
+    flex-basis: 50%;
+  }
+    
+  .header-txt h1{
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 25px;   
+  }
+
+  .header-txt span{
+    color: #ff5a2c;
+  }
+
+  .header-txt p{
+    font-size: 25px;
+    color: #e0e0e0;
+    margin-bottom: 45px;
+    max-width: 60%;
+    text-align: justify;
+  }
+
+  .header-txt p a{
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 25px;
+  }
+
+  .header-txt p a:hover{
+    background-color: #ff5a2c;
+    transition: 0.3s ease;
+  }
+
+  .buttons{
+    display: flex;
+  }
+
+  .btn1, .btn2, .btn3{
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #ff5a2c;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #ffffff;
+  }
+
+  .btn1:hover{
+        background-color: #ff5a2c;
+        transition: 0.3s ease;
+  } 
+
+  .popular{
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  h2{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 45px;
+    padding: 20px 20px;
+  }
+
+  .popular-content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popular-content img{
+    width: 150px;
+  }
+
+  .hobbies-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+  }
+
+  .hobbie1 img{
+        width: 100%;
+    }
+
+  .hobbie1 background-color: #2a223a;
+  }
+
+  .hobbie1-txt{
+    padding: 50px 30px;
+  }
+
+  h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info p{
+    font-size: 17px;
+    color: #ff5a2c;
+  }
+
+  .btn2{
+    background-color: #ff5a2c;
+    margin-right: 0;
+  }
+
+  .btn2:hover{
+        background: transparent;
+        transition: 0.3s ease;
+  } 
+
+  .contact{
+    padding: 150px 300px;
+  }
+
+  .contact-content{
+    background-color: #2a223a;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  input{
+    padding: 18px 25px;
+    background-color: #3f3456;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 17px;
+  }
+
+  ::placeholder{
+    color: #e0e0e0;
+    font-size: 17px;
+  }
+
+  .btn3{
+    background-color: #ff5a2c;
+    cursor: pointer;
+    margin-right: 0;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .footer .navbar ul li{
+    position: relative;
+    float: left;
+  }
+
+  .footer .navbar ul li a{
+    font-size: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+    border-radius: 25px;
+  }
+
+  .footer .navbar ul li a:hover{
+    background-color: #ff5a2c;
+    transition: 0.3s ease;
+  }
+
+  .link ul{
+    display: flex;
+  }
+
+  .link ul li > a{
+    font-size: 17px;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+
+  .link ul li > a{
+    color: #ff5a2c;
+  }
+
+  @media(max-width:991px){
+
+    .menu{
+        padding: 5px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ff5a2c;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #1b1726;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .btn1:last-of-type{
+        margin-right: 0;
+    }
+
+    .popular{
+        display: none;
+    }
+
+    .hobbies {
+        padding: 30px;
+    }
+
+    .hobbies-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .hobbie1 img{
+        width: 100%;
+    }
+
+    .contact{
+        padding: 30px;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    input{
+        margin: 0 0 20px 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        margin-top: 20px;
+    }
+  }
+  
