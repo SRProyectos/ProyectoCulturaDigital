@@ -50,7 +50,7 @@ img{
     font-weight: 800;
     text-transform: uppercase;
     padding: 20px;
-    width: 8%
+    width: 150px;
   }
 
   .menu .navbar ul li{
@@ -319,6 +319,10 @@ img{
     .header-txt h1{
         font-size: 50px;
         margin-bottom: 15px;
+    }
+
+    .header-txt p{
+      max-width: 100%; 
     }
 
     .buttons{
