@@ -52,6 +52,20 @@ img{
     padding: 20px;
     width: 150px;
   }
+    .player{
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .player-content{
+    display: flex;
+    justify-content: right;
+  }
+
+  .player-content audio{
+    width: 350px; 
+    outline: none;   
+  }
 
   .menu .navbar ul li{
     position: relative;
